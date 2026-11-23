@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fatima Khan - Computer Science Student Portfolio">
+  <title>Fatima Khan | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">FK<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Fatima Khan</span></h1>
+        <h2>Computer Science Student</h2>
+        <p class="hero-text">I'm a 3rd semester BScS student passionate about programming, problem-solving, and learning new technologies.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">View My Work</a>
+          <a class="btn btn-outline" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative initials FK">
+        <div class="art-circle"><span>FK</span></div>
+        <div class="floating-tag tag-one">C++</div>
+        <div class="floating-tag tag-two">OOP</div>
+        <div class="floating-tag tag-three">DSA</div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <p class="eyebrow center">GET TO KNOW ME</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-card">
+          <div class="about-icon">✦</div>
+          <div>
+            <h3>A curious learner and future developer</h3>
+            <p>I am Fatima Khan, a Bachelor of Computer Science student currently studying in my 3rd semester. I enjoy understanding how software works, practicing coding, and improving my technical skills. I am building a strong foundation in C++, Object-Oriented Programming, and Data Structures & Algorithms.</p>
+            <div class="about-facts">
+              <p><strong>Degree:</strong> Bachelor of Computer Science (BScS)</p>
+              <p><strong>Semester:</strong> 3rd Semester</p>
+              <p><strong>Email:</strong> <a href="mailto:fatima18784@gmail.com">fatima18784@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow center">WHAT I'M LEARNING</p>
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <div class="skill-symbol">C++</div>
+          <h3>C++ Programming</h3>
+          <p>Programming fundamentals, logic building, and problem-solving practice.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-symbol">OOP</div>
+          <h3>Object-Oriented Programming</h3>
+          <p>Classes, objects, constructors, inheritance, and polymorphism.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-symbol">DSA</div>
+          <h3>Data Structures & Algorithms</h3>
+          <p>Arrays, linked lists, stacks, queues, and sorting concepts.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <p class="eyebrow center">MY PRACTICE WORK</p>
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>C++ Practice Programs</h3>
+            <p>A collection of beginner programming exercises focused on logic building and core C++ concepts.</p>
+            <span class="project-tag">C++</span>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>OOP Practice</h3>
+            <p>Small exercises demonstrating classes, objects, constructors, inheritance, and encapsulation.</p>
+            <span class="project-tag">C++ · OOP</span>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>Data Structures Practice</h3>
+            <p>Learning and implementing fundamental data structures such as stacks, queues, and linked lists.</p>
+            <span class="project-tag">DSA</span>
+          </article>
+        </div>
+        <p class="project-note">These are learning/practice areas. Replace them with your completed projects when you are ready.</p>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <p class="eyebrow center">LET'S CONNECT</p>
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <div class="contact-card">
+        <div class="contact-icon">✉</div>
+        <h3>Have a question or want to connect?</h3>
+        <p>Feel free to send me an email. I'd be happy to hear from you.</p>
+        <a class="btn btn-primary" href="mailto:fatima18784@gmail.com">fatima18784@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Fatima Khan. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
